@@ -12,12 +12,12 @@ The goal of this challenge is to create a kafka producer and kafka consumer, the
 ## Preparando ambiente
 
 - Clone this repository.
-- Execute `chmod +x ./run.sh` to authorize user execute run.sh file
+- Execute `chmod +x ./run.sh` in root directory of this project to authorize user execute run.sh file
 
 
 ## Run application
 
-- Execute `./run.sh` to run application.
+- Execute `./run.sh` in root directory of this project to run application.
 
 ## Test 
 For testing this application you can execute the following command:
@@ -30,4 +30,4 @@ curl --location --request POST 'http://localhost:8080/users' \
 }'
 ```
 
-Note: You should have installed the curl.
+Note: You should have curl installed.
